@@ -1,6 +1,9 @@
 name: Build Docker
+
 on:
   push:
+    branches:
+      - "*"
     tags:
       - "*"
 
